@@ -8,7 +8,7 @@ return
 openpdf:
 	Gui, Submit, Nohide
 	source := ""
-	Loop,read, C:\Users\atif\Desktop\Internship IISc\New_PFT_trial\pft_list1.txt
+	Loop,read, <enter_text_file_path_here>
 	{
 			WinMinimize
 			run, %A_LoopReadLine%, hide
